@@ -190,6 +190,8 @@ class Xmlgrg(Tk):
 
         ttk.Button(top, text="ok", command=cal_done).pack()
         root.mainloop()
+        #   Entry  单行文本  ，设置值为选中的日期时间
+        self.Entry_StartTime.insert(0, cal.selection_get())
 
 
 if __name__ == "__main__":
