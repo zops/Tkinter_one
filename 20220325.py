@@ -22,7 +22,7 @@ class Xmlgrg(Tk):
     def __init__(self):
         super().__init__()
 
-        self.title("Base")
+        self.title("Tkinter_one")
         self.geometry("1200x900+400+100")
         self.resizable(0,0)
         self["bg"] = "lightblue"
